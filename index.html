@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator</title>
+</head>
+<body>
+  <br>
+  <div class="container">
+    <div class="building-elevator">
+      <div class="building">
+        <div class="floor floor-5">Planta alta</div>
+        <div class="floor floor-4">tercer piso</div>
+        <div class="floor floor-3">Segundo piso</div>
+        <div class="floor floor-2">primer piso</div>
+        <div class="floor floor-1">Entrada</div>
+      </div>
+      <div class="elevator-shaft">
+        <div id="cinco" class="elevator-floor elevator-floor-5"></div>
+        <div id="cuatro" class="elevator-floor elevator-floor-4"></div>
+        <div id="tres" class="elevator-floor elevator-floor-3"></div>
+        <div id="dos" class="elevator-floor elevator-floor-2"></div>
+        <div id="uno" class="elevator-floor elevator-floor-1"></div>
+        <div class="elevator"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <label id="palabra"></label>
+  </div>
+  <br>
+  <div class="container2">
+    <div class="building2">
+      <div class="line1">Empezar a JUGAR</div>
+        <button id="btnReproducir" class="musica">JUGAR</button>
+      <div class="line2">REINICIAR JUEGO</div>
+        <input type="button" value="Actualizar" onclick="location.reload()" 
+        style="font-family:Arial;font-size:10pt;width:200px;height:30px;
+        background:#777777;color:#ffffff;cursor:pointer;"/>
+    </div>
+  </div>
+  
+</body>
+
+<script src="jquery.min.js"></script>
+<script src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+</html>
